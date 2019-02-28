@@ -52,33 +52,18 @@ function click1() {
 		$('#say').text("( •̀ ω •́ )y耶！！！");
 		$('#boy').click(function() {
 			$("#boy").removeAttr("click");
-			$('#say').text("ヽ(✿ﾟ▽ﾟ)ノ普天同庆");
+			$('#say').text("普天同庆♪(^∇^*)！");
 			$('#boy').click(function() {
 				$("#boy").removeAttr("click");
-				$('#say').text("锣鼓喧天♪(^∇^*)！");
+				$('#say').text("(/≧▽≦)/鞭炮齐鸣");
 				$('#boy').click(function() {
 					$("#boy").removeAttr("click");
-					$('#say').text("(/≧▽≦)/鞭炮齐鸣");
-					$('#boy').click(function() {
-						$("#boy").removeAttr("click");
-						$('#say').text("生日快乐！么么哒！");
-						$('#boy').click(function() {
-							$("#boy").removeAttr("click");
-							$('#say').text("再点一下就拜拜咯~");
-							$('#boy').click(function() {
-								$("#boy").removeAttr("click");
-								window.opener = null;    
-		           	 			window.open('', '_self', '');   
-		           				window.close();
-							});
-						});
-					});
+					$('#say').text("生日快乐！么么哒！");
 				});
 			});
 		});
 	});
 }
-
 
 
 });
